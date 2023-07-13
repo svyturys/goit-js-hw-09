@@ -1,45 +1,5 @@
-// Описаний в документації
 import flatpickr from "flatpickr";
-// Додатковий імпорт стилів
 import "flatpickr/dist/flatpickr.min.css";
-
-// const options = {
-//     enableTime: true,
-//     time_24hr: true,
-//     defaultDate: new Date(),
-//     minuteIncrement: 1,
-//     onClose(selectedDates) {
-//       console.log(selectedDates[0]);
-//     },
-//   };
-
-
-
-// ________ЗАМІСТЬ OPTIONS ТРЕБА ФУНКЦІЮ_____________
-// const options = {
-//     intervalId: null,
-//     enableTime: true,
-//     time_24hr: true,
-//     defaultDate: new Date(),
-//     minuteIncrement: 1,
-//     onClose(selectedDates) {
-//         const selectedDate = selectedDates[0];
-//         const currentTime = Date.now();
-//         if (currentTime >= selectedDate) {
-//             return window.alert('Choose date in the future');
-//         }
-//         startBtn.disabled = false;
-//         console.log(convertMs(selectedDate - currentTime));
-//     },
-// };
-
-//   const datePicker = flatpickr("#datetime-picker", options);
-
-//   function startTimer() {
-//     const selectedDate = document.getElementById("datetime-picker").value;
-//     const selectedDateTime = new Date(selectedDate);
-//     const currentDate = new Date();
-//   }
 
 const ref = {
   inputValue: document.querySelector('#datetime-picker'),
